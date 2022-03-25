@@ -5,13 +5,22 @@
 }
 html {
   font-family: "Roboto", sans-serif;
-}
-.global {
-  margin: 0;
-  box-sizing: border-box;
   height: 100%;
   width: 100%;
 }
-h1 {
-  color: black;
+.global {
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  color: white;
+  background: rgb(50, 76, 168);
+}
+.search {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  left: 60%;
+  top: 5%;
 }
