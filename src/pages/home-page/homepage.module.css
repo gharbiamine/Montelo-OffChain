@@ -18,9 +18,19 @@ html {
   background: rgb(50, 76, 168);
 }
 .search {
-  height: 100%;
-  width: 100%;
   position: relative;
   left: 60%;
-  top: 5%;
+}
+.container {
+  display: grid;
+}
+.sidebar {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+.explorer {
+  grid-column: 2 / 2;
+  grid-row: 1;
+  position: absolute;
+  width: 100vw;
 }

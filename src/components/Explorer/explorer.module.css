@@ -1,13 +1,5 @@
-.table {
-  background-color: grey;
+.explorer {
+  float: right;
+  margin-right: 5%;
 }
-.row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: space-between;
-}
-td {
-  margin-left: 5vw;
-  text-align: center;
-}
+
