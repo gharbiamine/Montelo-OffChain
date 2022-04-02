@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 import styles from "./sidebar.module.css";
-//import { SIDEBAR_DATA } from "./Data";
+import { SIDEBAR_DATA } from "./Data";
 
 const Sidebar = () => {
   const [reveal, setReveal] = useState(true);

@@ -2,12 +2,21 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./components/app/App";
-import "bootstrap/dist/css/bootstrap.min.css";
-// import "semantic-ui-css/semantic.min.css";
+import { extendTheme, ChakraProvider } from "@chakra-ui/react";
+
+const colors = {
+  brand: {
+    cyan: "#4287f5",
+  },
+};
+
+const theme = extendTheme({ colors });
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ChakraProvider theme={theme}>
+      <App />
+    </ChakraProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

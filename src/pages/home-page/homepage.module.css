@@ -14,23 +14,23 @@ html {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  color: white;
-  background: rgb(50, 76, 168);
+  color: rgb(50, 76, 168);
+  background: white;
 }
 .search {
   position: relative;
   left: 60%;
 }
 .container {
-  display: grid;
+  display: flex;
 }
 .sidebar {
-  grid-column: 1 / 2;
-  grid-row: 1;
+  
 }
 .explorer {
-  grid-column: 2 / 2;
-  grid-row: 1;
-  position: absolute;
-  width: 100vw;
+  top: 10vh;
+  position: relative;
+  height: 100vh;
+  width: 80vw;
+  left: 15%;
 }
