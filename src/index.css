@@ -1,6 +1,13 @@
 * {
   margin: 0;
-  overflow: hidden;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+html {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  width: 100%;
 }
 body {
   font-family: "Raleway", sans-serif, -apple-system, BlinkMacSystemFont,
@@ -11,6 +18,8 @@ body {
   color: white;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  position: absolute;
+  overflow-y: scroll;
   font-size: 1em;
   height: 100vh;
   width: 100%;

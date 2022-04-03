@@ -1,6 +1,17 @@
 import styles from "./searchbar.module.css";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { data } from "../explorer/Blocks/Blockdata.js";
+
+const List = (props) => {
+  return (
+    <ul>
+      {data.map((item) => (
+        <li key={item.id}>{item.text}</li>
+      ))}
+    </ul>
+  );
+};
 
 function Searchbar() {
   return (

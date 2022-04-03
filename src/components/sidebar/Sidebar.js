@@ -5,7 +5,7 @@ import styles from "./sidebar.module.css";
 //import { SIDEBAR_DATA } from "./Data";
 
 const Sidebar = () => {
-  const [reveal, setReveal] = useState(true);
+  const [reveal, setReveal] = useState(false);
   const show = reveal ? styles.reveal : styles.hide;
 
   return (

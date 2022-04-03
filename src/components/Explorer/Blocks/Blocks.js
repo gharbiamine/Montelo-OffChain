@@ -14,7 +14,7 @@ const Blocks = () => {
   return (
     <>
       <Box padding={4}>
-        <Box overflowY="auto" maxHeight="350px" w={[300, 400, 600]}>
+        <Box overflowY="auto" maxHeight="450px" w={[200, 300, 450, 600]}>
           <TableContainer overflowWrap="nowrap">
             <Table variant="striped">
               <Thead>
@@ -28,7 +28,7 @@ const Blocks = () => {
                 {data.map(({ Block, Miner, Reward }) => (
                   <Tr>
                     <Td>{Block}</Td>
-                    <Td isNumeric>{Miner}</Td>
+                    <Td>{Miner}</Td>
                     <Td>{Reward}</Td>
                   </Tr>
                 ))}
