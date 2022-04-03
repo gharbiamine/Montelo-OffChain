@@ -7,18 +7,14 @@
   border-radius: 25px;
   box-shadow: 0px 0px 1px 2px rgb(66, 135, 245);
   display: flex;
-  flex-direction: row;
-  overflow: hidden;
-  justify-content: flex-start;
-  align-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .icon {
   position: relative;
   color: rgb(66, 135, 245);
-  text-align: center;
-  bottom: -10%;
-  margin: 0 0 10px 15px;
+  margin: 0 .5rem 0 1rem;
   padding-right: 10px;
 }
 
@@ -27,6 +23,7 @@
   border: none;
   -webkit-appearance: none;
   color: lightgray;
+  width: 100%;
 }
 
 input {

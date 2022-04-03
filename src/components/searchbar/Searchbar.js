@@ -12,7 +12,7 @@ function Searchbar() {
         <input
           className={styles.input}
           type="text"
-          placeholder="Search in projects"
+          placeholder="Search by Address / Txn / Block / Token"
         />
       </div>
     </>
