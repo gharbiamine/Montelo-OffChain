@@ -1,7 +1,7 @@
-import { Box, Flex, HStack, Spacer, Stack } from "@chakra-ui/react";
+import { Box, Wrap, WrapItem, Stack } from "@chakra-ui/react";
 import React from "react";
-import Blocks from "./Blocks/Blocks";
-import Transactions from "./Transactions/Transactions";
+import Blocks from "./blocks/Blocks";
+import Transactions from "./transactions/Transactions";
 import styles from "./explorer.module.css";
 
 const Explorer = () => {
@@ -9,16 +9,17 @@ const Explorer = () => {
     <>
       <Stack
         direction={{ base: "column", md: "row" }}
-        spacing="20px"
+        spacing="5vw"
         justifyContent="center"
       >
-        <Box>
-          <Blocks />
-        </Box>
-        <Spacer />
-        <Box>
-          <Transactions />
-        </Box>
+        <Wrap align="center" justify="center">
+          <WrapItem>
+            <Blocks />
+          </WrapItem>
+          <WrapItem>
+            <Transactions />
+          </WrapItem>
+        </Wrap>
       </Stack>
     </>
   );

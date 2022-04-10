@@ -14,7 +14,7 @@ const Blocks = () => {
   return (
     <>
       <Box padding={4}>
-        <Box overflowY="auto" maxHeight="450px" w={[200, 300, 450, 600]}>
+        <Box overflowY="auto" maxHeight="450px" w={[200, 350, 450, 600]}>
           <TableContainer overflowWrap="nowrap">
             <Table variant="striped">
               <Thead>

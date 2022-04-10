@@ -1,7 +1,7 @@
 import styles from "./searchbar.module.css";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { data } from "../Explorer/Blocks/Blockdata";
+import { data } from "../explorer/blocks/Blockdata";
 
 const List = (props) => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./homepage.module.css";
-import Explorer from "../../components/Explorer/Explorer";
+import Explorer from "../../components/explorer/Explorer";
 import Navbar from "../../components/navbar/Navbar.tsx";
 import Searchbar from "../../components/searchbar/Searchbar";
 

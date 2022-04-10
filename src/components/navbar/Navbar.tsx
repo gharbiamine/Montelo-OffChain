@@ -93,9 +93,9 @@ export default function WithSubnavigation() {
             fontSize={"sm"}
             fontWeight={600}
             color={"white"}
-            bg={"cyan.400"}
+            bg={"blue.600"}
             _hover={{
-              bg: "cyan.300",
+              bg: "blue.500",
             }}
           >
             Sign Up
@@ -189,7 +189,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
           align={"center"}
           flex={1}
         >
-          <Icon color={"cyan.400"} w={5} h={5} as={ChevronRightIcon} />
+          <Icon color={"blue.6700"} w={5} h={5} as={ChevronRightIcon} />
         </Flex>
       </Stack>
     </Link>
