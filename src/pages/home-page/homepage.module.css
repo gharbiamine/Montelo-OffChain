@@ -14,8 +14,7 @@
 .container {
   display: flex;
 }
-.sidebar {
-}
+
 .explorer {
   top: 10vh;
   position: relative;

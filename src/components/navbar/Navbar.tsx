@@ -9,7 +9,6 @@ import {
   Icon,
   Link,
   Popover,
-  PopoverTrigger,
   PopoverContent,
   useColorModeValue,
   useBreakpointValue,
@@ -24,6 +23,11 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBitcoinSign } from "@fortawesome/free-solid-svg-icons";
 import styles from "./navbar.module.css";
+
+import { PopoverTrigger as OrigPopoverTrigger } from "@chakra-ui/react";
+
+export const PopoverTrigger: React.FC<{ children: React.ReactNode }> =
+  OrigPopoverTrigger;
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
