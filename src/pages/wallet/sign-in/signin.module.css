@@ -1,0 +1,24 @@
+.global {
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  color: rgb(50, 76, 168);
+  background: white;
+}
+.search {
+  position: relative;
+  left: 60%;
+}
+.container {
+  display: flex;
+}
+
+.explorer {
+  top: 10vh;
+  position: relative;
+
+  height: 100vh;
+  width: 100vw;
+}

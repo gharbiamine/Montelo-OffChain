@@ -23,6 +23,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBitcoinSign } from "@fortawesome/free-solid-svg-icons";
 import styles from "./navbar.module.css";
+import { Link as ReachLink } from "react-router-dom";
 
 import { PopoverTrigger as OrigPopoverTrigger } from "@chakra-ui/react";
 
@@ -84,15 +85,6 @@ export default function WithSubnavigation() {
           spacing={6}
         >
           <Button
-            as={"a"}
-            fontSize={"sm"}
-            fontWeight={400}
-            variant={"link"}
-            href={"#"}
-          >
-            Sign In
-          </Button>
-          <Button
             display={{ base: "none", md: "inline-flex" }}
             fontSize={"sm"}
             fontWeight={600}
@@ -102,7 +94,9 @@ export default function WithSubnavigation() {
               bg: "blue.500",
             }}
           >
-            Sign Up
+            <Link as={ReachLink} to="/sigin">
+              Link your wallet
+            </Link>
           </Button>
         </Stack>
       </Flex>
